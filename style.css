@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+#back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(112, 182, 112);
+}
+
+#pannel {
+    height: 80%;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#tpnl {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(40, 99, 40);
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0px 100px; */
+}
+
+#bpnl {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 70px);
+    background-color: rgb(255, 255, 255);
+    padding: 20px 10px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.part {
+    height: 100%;
+    width: 170px;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+
+.cnt {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #eee;
+    color: rgb(112, 182, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.bubble {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(112, 182, 112);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
